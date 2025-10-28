@@ -131,6 +131,11 @@ Cada linha representa a sequência temporal dos frames do vídeo, permitindo a c
 - **DATASET** O download do dataset ja esta incluído no código OFFICIAL
 - **Link para o rascunho_trab2 e rotulação dos dados** https://colab.research.google.com/drive/1pUN6pwxcImxYfd8ZPsPTuQkr0p2qkGZN?usp=sharing
 
+<p align="center">
+  <img width="1413" height="622" alt="image" src="https://github.com/user-attachments/assets/472e3e59-162a-445c-8865-1c121ad6ca8b" />
+</p>
+
+<p align="center"><em>Figura 3 – Comparação entre CORTES manuais e automáticos para um vídeo de teste.</em></p>
 
 ---
 
