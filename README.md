@@ -115,6 +115,7 @@ Cada linha representa a sequência temporal dos frames do vídeo, permitindo a c
 
 - **Recomendações** Não rode o rascunho, apenas veja as saídas que ja foram rodadas
 - **DATASET** O download do dataset ja esta incluído no código OFFICIAL
+- **Link para o rascunho_trab2 e rotulação dos dados** https://colab.research.google.com/drive/1pUN6pwxcImxYfd8ZPsPTuQkr0p2qkGZN?usp=sharing
 
 
 ---
