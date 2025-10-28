@@ -114,6 +114,8 @@ Cada linha representa a sequência temporal dos frames do vídeo, permitindo a c
 | `rascunho_trab2.py` | Versão preliminar contendo o raciocínio, testes e rotulação manual. |
 
 - **Recomendações** Não rode o rascunho, apenas veja as saídas que ja foram rodadas
+- **DATASET** O download do dataset ja esta incluído no código OFFICIAL
+
 
 ---
 
