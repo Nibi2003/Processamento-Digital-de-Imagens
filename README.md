@@ -58,6 +58,8 @@ Dois critérios foram implementados:
 Quadros excessivamente claros ou escuros são descartados com base em seu brilho médio (`< 30` ou `> 220`).  
 O algoritmo tenta substituir quadros inválidos por frames vizinhos até ±2 posições.
 
+<img width="1484" height="577" alt="image" src="https://github.com/user-attachments/assets/6b9640e3-53b7-46ea-ba86-b9509ecf02dc" />
+
 ---
 
 ## 4. Métricas de Avaliação  
