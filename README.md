@@ -49,16 +49,28 @@ Um corte de cena é identificado quando `d_i' > threshold`.
 
 ## 3. Seleção de Quadros-Chave  
 
-Após a segmentação das cenas, é escolhido um quadro representativo (key frame) para cada trecho identificado.  
-Dois critérios foram implementados:
+Após a segmentação das cenas, é escolhido um quadro representativo (*key frame*) para cada trecho identificado.  
+Foram implementados dois critérios distintos:
 
-1. **Método "middle":** seleciona o frame central da cena.  
-2. **Método "max_diff":** seleciona o frame com maior diferença em relação ao anterior dentro do intervalo da cena.  
+1. **Método “middle”** — seleciona o frame central de cada cena.  
+2. **Método “max_diff”** — seleciona o frame que apresenta a maior diferença em relação ao anterior dentro da cena.  
 
-Quadros excessivamente claros ou escuros são descartados com base em seu brilho médio (`< 30` ou `> 220`).  
-O algoritmo tenta substituir quadros inválidos por frames vizinhos até ±2 posições.
+Quadros excessivamente claros ou escuros são descartados com base no brilho médio (`< 30` ou `> 220`),  
+e o algoritmo tenta substituí-los por quadros vizinhos até ±2 posições.
 
-<img width="1484" height="577" alt="image" src="https://github.com/user-attachments/assets/6b9640e3-53b7-46ea-ba86-b9509ecf02dc" />
+---
+
+### Exemplo visual dos quadros-chave detectados
+
+A figura abaixo apresenta a comparação entre os keyframes obtidos manualmente e pelos algoritmos de **BIC Local** e **Histograma Local**.  
+Os quadros destacados em vermelho, azul e verde indicam respectivamente os keyframes detectados manualmente, por BIC e por Histograma.
+
+<p align="center">
+  <img width="1484" height="577" alt="Comparativo de Keyframes" 
+       src="https://github.com/user-attachments/assets/85e5f25e-a1b3-478f-b3e2-ab8bf19c6703" />
+</p>
+
+<p align="center"><em>Figura 3 – Comparação entre keyframes manuais e automáticos para um vídeo de teste.</em></p>
 
 ---
 
